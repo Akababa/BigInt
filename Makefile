@@ -1,7 +1,7 @@
 CXX = g++-5
 CXXFLAGS = -std=c++14 -Wall -MMD
-EXEC = a3q2 
-OBJECTS = bigint.o
+EXEC = bigtest 
+OBJECTS = bigint.o main.o
 DEPENDS = ${OBJECTS:.o=.d}
 
 ${EXEC}: ${OBJECTS}
